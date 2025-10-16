@@ -1,0 +1,25 @@
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.categories-cards .card {
+  color: var(--text-primaty-color);
+  width: 312px;
+  height: 220px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--background-secondary-color);
+}
+
+.categories-cards .card img{
+    margin: 41px 0 24px 0;
+}
+
+.categories-cards .card h3{
+    font-size: 28px;
+    margin: 0;
+}
