@@ -1,5 +1,6 @@
 .categories .section-title {
-  margin-top: 88px;
+  width: 312px;
+  margin: 88px auto;
 }
 
 .categories-cards {
@@ -27,31 +28,36 @@
   font-weight: var(--title-weight);
 }
 
+/* trick */
 .categories-cards .card.single-line {
   padding-top: 50px;
 }
 
+/* trick */
 .categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
 }
 
 @media screen and (min-width: 768px) {
+  .categories .section-title {
+    width: 100%;
+  }
   .categories-cards {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 }
 
+/* trick para tablet */
 @media screen and (min-width: 1024px) {
   .categories-cards .card {
-    width: 412px;
+    width: 430px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .categories-cards .card {
-    width: 512px;
+    width: 280px;
   }
 }
