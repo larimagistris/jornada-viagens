@@ -1,0 +1,7 @@
+.destionations .item header {
+  display: block;
+  position: static;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 24px;
+}
