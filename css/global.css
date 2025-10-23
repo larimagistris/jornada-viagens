@@ -74,7 +74,6 @@ section.hero {
 }
 
 .button {
-  width: 280px;
   min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);

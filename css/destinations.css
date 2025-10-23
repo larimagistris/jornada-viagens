@@ -1,4 +1,4 @@
-.destination-item {
+.destionation-items {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,6 +53,7 @@
 
   .destinations .button {
     width: 280px;
+    margin-bottom: 24px;
   }
 }
 
@@ -72,7 +73,7 @@
     width: 1200px;
   }
 
-  .destination-item {
+  .destionation-items {
     flex-direction: row;
   }
 }
