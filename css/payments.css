@@ -6,9 +6,6 @@
   margin-top: 24px;
   width: 100%;
 }
-.payments .content-conteiner {
-  display: flex;
-}
 
 .payments .content-conteiner .image-gallery .image.firt {
   background: url(../img/gallery1-mobile.jpg) no-repeat;
@@ -46,6 +43,7 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-conteiner {
+    display: flex;
     justify-content: space-between;
   }
   .payments .content-conteiner .content-text {
@@ -53,6 +51,7 @@
   }
   .payments .content-conteiner .image-gallery {
     width: 790px;
+    margin: 0;
   }
   .payments .content-conteiner .image-gallery .image.firt {
     background: url(../img/gallery1-desktop.png) no-repeat;
