@@ -22,17 +22,17 @@
   height: 86px;
 }
 
-.testimonials-conteiner article footer .profile-content h4{
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: var(--title-weight);
-    margin: 0 0 8px;
+.testimonials-conteiner article footer .profile-content h3 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin: 0 0 8px;
 }
 
-.testimonials-conteiner article footer .profile-content .rating .star{
-    font-size: 32px;
-    color: var(--primary-color);
-    line-height: 32px;
+.testimonials-conteiner article footer .profile-content .rating .star {
+  font-size: 32px;
+  color: var(--primary-color);
+  line-height: 32px;
 }
 
 @media screen and (min-width: 1440px) {
