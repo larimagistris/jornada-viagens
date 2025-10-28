@@ -23,6 +23,47 @@
   line-height: 1.5;
 }
 
+/* Pacotes de viagem */
+.travel-packges.hero.hero {
+  margin-bottom: 88px;
+}
+
+.travel-packges.hero .hero-img {
+  background: url(../img/travel-packages/hero-packages-tablet.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.travel-packges .hero-content {
+  padding: 65px 24px;
+}
+
+.travel-packges .hero-content h1 {
+  font-size: 48px;
+  color: var(--background-primary-color);
+  font-weight: var(--title-weight);
+}
+
+.travel-packges .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.travel-packges .hero-content p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--text-secondary-color);
+}
+
+.travel-packges.bottom-hero .hero-img {
+  background: url(../img/travel-packages/bottom-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -37,6 +78,24 @@
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+  }
+
+  /* Pacotes de viagem */
+  .travel-packges.hero .hero-img {
+    background: url(../img/travel-packages/hero-packages-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .travel-packges.bottom-hero .hero-img {
+    background: url(../img/travel-packages/bottom-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packges .hero-content {
+    padding: 210px 70px 107px;
+  }
+  .travel-packges .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
   }
 }
 
@@ -53,6 +112,29 @@
   }
   .hero h2 {
     padding: 88px 120px;
+  }
+
+  /* Pacotes de viagem */
+  .travel-packges .hero-img {
+    background: url(../img/travel-packages/hero-packages-desktop.png);
+    background-size: cover;
+  }
+  .travel-packges.bottom-hero .hero-img {
+    background: url(../img/travel-packages/bottom-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packges .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+  .travel-packges .hero-content p {
+    width: 570px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .travel-packges .hero-content {
+    width: 1200px;
   }
 }
 
