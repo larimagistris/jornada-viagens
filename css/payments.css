@@ -67,17 +67,16 @@
     background: url(../img/gallery3-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
   /* Pacotes de viagem */
   .travel-packges.payments .content-conteiner .image-gallery .image.firt {
     background: url(../img/travel-packages/gallery1-tablet.jpg) no-repeat;
     background-size: cover;
   }
-
   .travel-packges.payments .content-conteiner .image-gallery .image.second {
     background: url(../img/travel-packages/gallery2-tablet.jpg) no-repeat;
     background-size: cover;
   }
-
   .travel-packges.payments .content-conteiner .image-gallery .image.third {
     background: url(../img/travel-packages/gallery3-tablet.jpg) no-repeat;
     background-size: cover;
@@ -106,6 +105,19 @@
   }
   .payments .content-conteiner .image-gallery .image.third {
     background: url(../img/gallery3-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  /* Pacotes de viagem */
+  .travel-packges.payments .content-conteiner .image-gallery .image.firt {
+    background: url(../img/travel-packages/gallery1-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packges.payments .content-conteiner .image-gallery .image.second {
+    background: url(../img/travel-packages/gallery2-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packges.payments .content-conteiner .image-gallery .image.third {
+    background: url(../img/travel-packages/gallery3-desktop.jpg) no-repeat;
     background-size: cover;
   }
 }
