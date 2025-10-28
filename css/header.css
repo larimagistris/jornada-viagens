@@ -54,7 +54,11 @@ nav {
   font-size: 24px;
 }
 
-.list-links li a.active {
+.list-links li a.active-travel-packages {
+  text-decoration: underline;
+}
+
+.list-links li a.active-blog {
   text-decoration: underline;
 }
 

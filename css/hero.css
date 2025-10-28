@@ -24,7 +24,7 @@
 }
 
 /* Pacotes de viagem */
-.travel-packges.hero.hero {
+.travel-packges.hero {
   margin-bottom: 88px;
 }
 
@@ -64,6 +64,41 @@
   background-size: cover;
 }
 
+/* Blog */
+.blog.hero {
+  margin-bottom: 88px;
+}
+.blog.hero .hero-img {
+  background: url(../img/blog/hero-blog-mobile.jpg) no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.blog .hero-content {
+  padding: 65px 24px;
+}
+
+.blog .hero-content h1 {
+  font-size: 48px;
+  color: var(--background-primary-color);
+  font-weight: var(--title-weight);
+}
+
+.blog .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.blog .hero-content p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--text-secondary-color);
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -94,6 +129,20 @@
     padding: 210px 70px 107px;
   }
   .travel-packges .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  /* Blog */
+  .blog.hero .hero-img {
+    background: url(../img/blog/hero-blog-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .blog .hero-content {
+    padding: 158px 94px;
+  }
+  .blog .hero-content p {
     font-size: 32px;
     line-height: 48px;
   }
@@ -130,10 +179,22 @@
   .travel-packges .hero-content p {
     width: 570px;
   }
+
+  /* Blog */
+  .blog .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+  .blog .hero-content p {
+    width: 570px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .travel-packges .hero-content {
+    width: 1200px;
+  }
+  .blog .hero-content {
     width: 1200px;
   }
 }
