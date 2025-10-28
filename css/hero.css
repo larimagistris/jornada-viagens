@@ -15,6 +15,10 @@
 }
 
 /* Pacotes de viagem */
+.travel-packges.hero.hero {
+  margin-bottom: 88px;
+}
+
 .travel-packges.hero .hero-img {
   background: url(../img/travel-packages/hero-packages-tablet.png) no-repeat;
   background-size: cover;
