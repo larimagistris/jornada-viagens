@@ -62,6 +62,10 @@ nav {
   text-decoration: underline;
 }
 
+.list-links li a.active-contact {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .navegation-menu {
     margin-top: 0;
